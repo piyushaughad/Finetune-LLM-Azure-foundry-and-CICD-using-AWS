@@ -20,8 +20,7 @@ phases:
     commands:
       - echo Building the Vite React app...
       - npm run build
-      - echo Build output directory contents:
-      - ls dist/
+      - echo Build output directory listing && ls dist/
 
   post_build:
     commands:
